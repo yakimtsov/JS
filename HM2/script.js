@@ -1,27 +1,27 @@
-let UserAge = 17;
-console.log(UserAge);
+let userAge = 17;
+console.log(userAge);
 
-let UserName = "Ross";
-console.log(UserName);
+let userName = "Ross";
+console.log(userName);
 
-let UserSurname = "Klinton";
-console.log(UserSurname);
+let userSurname = "Klinton";
+console.log(userSurname);
 
-let $newUser = "nickname";
+let newUser = "nickname";
 
-console.log($newUser);
+console.log(newUser);
 
-let $ShoppingList = ["icecream", 12];
-console.log($ShoppingList);
+let shoppingList = ["icecream", 12];
+console.log(shoppingList);
 
-let $UserStatus = true;
-console.log($UserStatus);
+let userStatus = true;
+console.log(userStatus);
 
-let WorkerSalary = 2000;
-console.log(WorkerSalary);
+let workerSalary = 2000;
+console.log(workerSalary);
 
-let MouseEvent = 120;
-console.log(MouseEvent);
+let mouseEvent = 120;
+console.log(mouseEvent);
 
-let UserLocation = "Hillton";
-console.log("element UserLocation", UserLocation)
+let userLocation = "Hillton";
+console.log("userLocation", userLocation)
