@@ -37,10 +37,10 @@
 
 let ageVisitor = Number(prompt('Enter you age to visit the Attraction'));
 
-if (ageVisitor >= 18){
-    alert('Youre Welcome!')
-} else if (ageVisitor < 18 || ageVisitor >= 60){
+if (ageVisitor < 18 || ageVisitor >= 60){
     alert('Sorry, just with parents')
-}else {
+} else if (ageVisitor >= 18)
+    alert('Youre Welcome!')
+  else {
     alert('Something go wrong, please try again')
 }
