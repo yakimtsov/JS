@@ -20,3 +20,23 @@ const summary = (a, b) => a + b;
 console.log(firstResult);
 console.log(secondResult);
 console.log(thirdResult);
+
+
+
+// Second task
+
+function userGreeting(){
+    let userName = prompt('Enter you name:');
+    let userAge = Number(prompt('Enter your age:'));
+    if (userAge >= 30){
+        alert('Здраствуйте ' + userName)
+    }
+    else{
+        alert('Привет ' + userName)
+    }
+}
+
+userGreeting();
+
+
+// Third task
