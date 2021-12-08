@@ -44,7 +44,7 @@ userGreeting();
 
 function degreeNum(){
     let a = Number(prompt('Enter number: '));
-    let b = Number(prompt('Enter degree'));
+    let b = Number(prompt('Enter degree (not important Default: 2)'));
     let result = (b) ? a ** b : a ** 2;
     alert(result);
 }
