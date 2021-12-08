@@ -1,4 +1,5 @@
-// First task
+// // First task
+
 const a = 34;
 const b = 23;
 
@@ -23,7 +24,7 @@ console.log(thirdResult);
 
 
 
-// Second task
+// // Second task
 
 function userGreeting(){
     let userName = prompt('Enter you name:');
@@ -40,3 +41,12 @@ userGreeting();
 
 
 // Third task
+
+function degreeNum(){
+    let a = Number(prompt('Enter number: '));
+    let b = Number(prompt('Enter degree'));
+    let result = (b) ? a ** b : a ** 2;
+    alert(result);
+}
+
+degreeNum();
