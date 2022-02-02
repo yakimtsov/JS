@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            margin: 80px;
+        }
+        img{
+            width: 400px;
+            height: 600px;
+        }
+        .hidden{
+            display: none;
+        }
+        button{
+            color: white;
+            background-color: black;
+            padding: 10px 25px;
+        }
+        button:first-child{
+            margin-right: 232px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container" class="container">
+        <div class="slides" id="slides">
+            <img class="sld" src="./images/1.jpg" alt="">
+            <img class="sld" src="./images/2.jpg" alt="">
+            <img class="sld" src="./images/3.jpg" alt="">
+            <img class="sld"  src="./images/4.jpg" alt="">
+        </div>
+        <button id="prev">Prev</button>
+        <button id="next">Next</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
