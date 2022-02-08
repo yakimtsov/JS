@@ -66,20 +66,24 @@ console.log(parameters);
 
 // Задание 3
 
-const max = (a, b) => {
+const max = (a, ...b) => {
   return a > b ? a : b;
 };
 // Переделайте функцию max таким образом, что бы она принимала любое количество аргументов (при условии, что все они являются числами, и возвращала максимальное из них). P.S. В данной задаче нельзя использовать Math.max()
+
+// console.log(max(2,4,6,8,5,99))
+
+
 
 // Задание 4 Переделайте функцию createMessage таким образом, что бы на вход передавались не 4 аргумента, а один объект. Деструктузизуйте его в прямо в аргументах или в теле функции, и присвойте значения по умолчанию:
 
 // Guest для поля author
 // текущую дату для поля time
 
-const createMessage = (author, text, reciever, time) => {
+const createMessage = ({author = "Bache", text = "Hello!", reciever, time = new Date()}) => {
   return `From ${author} to ${reciever}: ${text} (${time.toLocaleDateString()})`;
 };
-const message = createMessage("Peter", "Hello", "Sam", new Date());
+// const message = createMessage("Peter", "Hello", "Sam", new Date());
 
 // после выполнения этого задания, функция должна коректно работать с таким аргументом
 
@@ -87,3 +91,5 @@ const message = createMessage({
   reciever: "John",
   text: "Hi!",
 });
+
+console.log(message)
